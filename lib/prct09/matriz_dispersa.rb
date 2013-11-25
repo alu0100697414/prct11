@@ -1,3 +1,15 @@
+# Files:       1
+
+# Classes:     1 (0 undocumented)
+# Modules:     1 (0 undocumented)
+# Constants:   0 (0 undocumented)
+# Attributes:  0 (0 undocumented)
+# Methods:    10 (2 undocumented)
+
+# Total:      12 (2 undocumented)
+# 83.33% documented
+
+
 require "./lib/prct09/matriz.rb"
 require "./lib/prct09/matriz_densa.rb"
 

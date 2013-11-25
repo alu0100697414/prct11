@@ -1,0 +1,19 @@
+Mon, 25 Nov 2013 19:20:32 +0000
+./test/tc_matriz.rb	Mon, 25 Nov 2013 19:20:13 +0000
+./README.txt	Mon, 25 Nov 2013 19:20:13 +0000
+./README.md	Mon, 25 Nov 2013 19:20:13 +0000
+./lib/prct09.rb	Mon, 25 Nov 2013 19:20:13 +0000
+./lib/prct09/gcd.rb	Mon, 25 Nov 2013 19:20:13 +0000
+./lib/prct09/matriz_densa.rb	Mon, 25 Nov 2013 19:20:13 +0000
+./lib/prct09/racional.rb	Mon, 25 Nov 2013 19:20:13 +0000
+./lib/prct09/matriz_dispersa.rb	Mon, 25 Nov 2013 19:20:13 +0000
+./lib/prct09/matriz.rb	Mon, 25 Nov 2013 19:20:13 +0000
+./lib/prct09/version.rb	Mon, 25 Nov 2013 19:20:13 +0000
+./spec/matriz_spec.rb	Mon, 25 Nov 2013 19:20:13 +0000
+./prct09.gemspec	Mon, 25 Nov 2013 19:20:13 +0000
+./LICENSE.txt	Mon, 25 Nov 2013 19:20:13 +0000
+./Gemfile	Mon, 25 Nov 2013 19:20:13 +0000
+./Guardfile	Mon, 25 Nov 2013 19:20:13 +0000
+./Rakefile	Mon, 25 Nov 2013 19:20:13 +0000
+./doc/created.rid	Mon, 25 Nov 2013 19:20:32 +0000
+./prct09-0.0.1.gem	Mon, 25 Nov 2013 19:20:13 +0000
