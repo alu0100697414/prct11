@@ -106,18 +106,24 @@ module Prct09
 # Metodo Multiplicacion
     def *(other)
         c = Matriz_Densa.new(@filas, other.columnas)
-        i = 0
-        while(i < @filas)
-          j = 0
-          while(j < other.columnas)
-            k = 0
-            while(k < @columnas)
+	@filas.times do |i|
+	other.columnas.times do |j|
+	@columnas.times do |k|
+
+
+
+#        i = 0
+#        while(i < @filas)
+#          j = 0
+#          while(j < other.columnas)
+#            k = 0
+#            while(k < @columnas)
               c.set(i, j, get(i, k) * other.get(k,j) + c.get(i,j))
-              k += 1
+#              k += 1
             end 
-          j += 1
+#          j += 1
           end
-        i += 1
+#        i += 1
         end
         c
     end
