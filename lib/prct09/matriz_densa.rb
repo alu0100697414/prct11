@@ -69,14 +69,17 @@ module Prct09
  # Metodo Suma
     def +(other)
       c = Matriz_Densa.new(@filas, @columnas)
-      i = 0
-      while(i < @filas)
-        j = 0
-        while(j < @columnas)
+	@filas.times do |i|
+	@columnas.times do |j| 
+
+#      i = 0
+#      while(i < @filas)
+#        j = 0
+#        while(j < @columnas)
           c.set(i, j, get(i,j) + other.get(i,j))
-          j += 1
+#          j += 1
         end
-        i += 1
+#        i += 1
       end
       c
     end
@@ -84,14 +87,18 @@ module Prct09
 # Metodo Resta        
     def -(other)
       c = Matriz_Densa.new(@filas, @columnas)
-      i = 0
-      while(i < @filas)
-        j = 0
-        while(j < @columnas)
+	@filas.times do |i|
+        @columnas.times do |j|
+
+
+#      i = 0
+#      while(i < @filas)
+#        j = 0
+#        while(j < @columnas)
           c.set(i, j, get(i,j) - other.get(i,j))
-          j += 1
+#          j += 1
         end
-        i += 1
+#        i += 1
       end
       c
     end
