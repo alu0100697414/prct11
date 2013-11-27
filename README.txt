@@ -1,7 +1,10 @@
-La distribucion de la practica ha sido crear una clase Matriz en la que tendremos un numero de filas, un numero de columnas y tambien, un vector con las posiciones.
+onsidere la Gema para la representación de Matrices que ha desarrollado en prácticas anteriores. Los objetivos de esta práctica son dos:
+Documentar la gema (utlizando RDOC).
+Desarrollar métodos con la filosofía de la programación funcional.
+Utilizar métodos como 'map/collect', 'inject/reduce', 'upto' o 'times' para implementar la suma y el producto de matrices.
+Generar la documentación de la Gema.
+Indicar la URL del repositorio que ha desarrollado.
 
-Para la matriz densa realizaremos la representacion normal, como hemos realizado en la practica anterior. Por su parte, la matriz dispersa la crearemos a partir de un array que contiene un Hash por fila. 
+En la realizacion de esta practica, hemos utilizado el metodo 'times' para implementar todas las funciones de la practica, y no solo la de la suma y la multiplicacion. Hemos intendado utilizar tambien el metodo 'upto', pero no hemos conseguido que funcionase, por lo que terminamos por realizarlo todo con 'times'.
 
-Con respecto a las operaciones de las matrices, las realizaremos de forma normal. Asi, partiremos siempre de matrices densas, y una vez obtenido el resultado, si este es superior al 60%, se creara por defecto la matriz dispersa. En otro caso, se quedara como densa.
-
-Las funciones de maximo y minimo para la matriz dispersa no la hemos realizado porque no hemos sabido interpretar como buscar en una tabla hash el valor del contenido. Asi mismo, a la hora de realizar el 'git push' tenemos el problema de que no nos deja subirlo porque da la autentificacion como fallida.
+Y por otro lado, para documentar la practica, hemos introducido el comando 'rdoc' generandose toda la documentacion de la practica.
