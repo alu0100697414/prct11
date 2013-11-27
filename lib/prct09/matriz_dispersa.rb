@@ -18,10 +18,8 @@ module Prct09
 
     def new_initialize
       @pos = Array.new(@filas)
-      i = 0
-      while(i < @filas)
+      @filas.times do |i|
         @pos[i] = {} 
-        i += 1
       end
     end
 
@@ -36,17 +34,13 @@ module Prct09
 
     obj = new(matriz.filas, matriz.columnas)
 
-    i = 0
-    while(i < matriz.filas)
-      j = 0
-      while(j < matriz.columnas)
+    matriz.filas.times do |i|
+      matriz.columnas.times do |j|
         val = matriz.get(i,j)
         if(val != 0)
           obj.pos[i][j] = val
-          end
-        j += 1
+        end
       end
-      i += 1
     end
     obj
     end
@@ -74,9 +68,8 @@ module Prct09
      def num_nulos
        t = @filas*@columnas
        nn = 0
-
-       i = 0
-       while(i < @filas)
+         
+       @filas.times do |i|
          nn += @pos[i].size
          i += 1
        end
@@ -88,13 +81,11 @@ module Prct09
 #Definicion del metodo to_s  
 
 def to_s
-      i = 0
       output = ""
-      while(i < @filas)
+      @filas.times do |i|
         output += "Fila #{i}: "
         @pos[i].sort.each{|k, v| output += "#{k}=>#{v} "}
         output += "\n"
-        i += 1
       end
       output
     end
